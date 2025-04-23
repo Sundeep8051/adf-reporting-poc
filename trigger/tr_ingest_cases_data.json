@@ -1,9 +1,20 @@
 {
-	"name": "tr_ingest_ecdc_data",
+	"name": "tr_ingest_cases_data",
 	"properties": {
 		"annotations": [],
 		"runtimeState": "Started",
-		"pipelines": [],
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_ingest_ecdc_data",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"sourceRelativeURL": "cloudboxacademy/covid19/main/ecdc_data/cases_deaths.csv",
+					"sinkFileName": "cases_deaths.csv"
+				}
+			}
+		],
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
