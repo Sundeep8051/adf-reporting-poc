@@ -1,0 +1,17 @@
+{
+	"name": "tr_ingest_ecdc_data",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 5,
+				"startTime": "2025-04-23T17:29:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
