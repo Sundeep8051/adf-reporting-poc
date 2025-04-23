@@ -19,6 +19,10 @@
 			"type": "string",
 			"defaultValue": "https://reportingdtlakegen2.dfs.core.windows.net/"
 		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com"
+		},
 		"storage_event_trigger_properties_typeProperties_scope": {
 			"type": "string",
 			"defaultValue": "/subscriptions/2213e8b1-dbc7-4d54-8aff-b5e315df5e5b/resourceGroups/1-493968e5-playground-sandbox/providers/Microsoft.Storage/storageAccounts/reportingsa2025"
@@ -58,6 +62,9 @@
 					},
 					"ls_adls_reportingdl_properties_typeProperties_url": {
 						"value": "[parameters('ls_adls_reportingdl_properties_typeProperties_url')]"
+					},
+					"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+						"value": "[parameters('ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url')]"
 					},
 					"storage_event_trigger_properties_typeProperties_scope": {
 						"value": "[parameters('storage_event_trigger_properties_typeProperties_scope')]"
