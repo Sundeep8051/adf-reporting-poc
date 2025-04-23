@@ -50,7 +50,7 @@
 						"value": "@activity('Lookup for the config').output.value",
 						"type": "Expression"
 					},
-					"isSequential": true,
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "Copy ECDC Data",
