@@ -1,0 +1,9 @@
+{
+	"name": "adf-poc-demo",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b803da3a-4519-4343-b4b5-7f15ef56e05a",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
